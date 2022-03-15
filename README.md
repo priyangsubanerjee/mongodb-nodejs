@@ -12,4 +12,4 @@ All the files are in javascript with the boiler plate code. You can just pull it
 
 ## Note
 
-- Plase update <username> & <password> vriables in the `url` varialble inside `dbConnect.js` file.
+- Plase update `<username>` & `<password>` parameters in the `url` varialble inside `dbConnect.js` file.
