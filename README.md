@@ -12,4 +12,29 @@ All the files are in javascript with the boiler plate code. You can just pull it
 
 ## Note
 
-- Plase update `<username>` & `<password>` parameters in the `url` variable inside `dbConnect.js` file.
+- Plase update <username> & <password> vriables in the `url` varialble inside `dbConnect.js` file.
+
+## Run app
+
+To run app, first install/updated all the required packages. To install/update packages run 
+
+```bash
+  npm install
+```
+
+After all the packages are installed correctly its time to run the app. By default the port selected will be `3000`
+
+```bash
+  npm start
+```
+
+
+
+## Tech Stack
+
+
+**Server:** Node, Express, Nodemon
+
+**Client:** Not yet configured.
+
+
