@@ -1,40 +1,38 @@
-
 # Connect mongoDb with Express app
 
 Hey all, in this repo you will find all the necessary code to connect your express js app to your mongodb database.
 All the files are in javascript with the boiler plate code. You can just pull it down and turn your ideas into reality.
 
-
 ## Authors
 
-- [@priyangsubanerjee](https://www.github.com/priyangsubanerjee)
+- 👔 [@priyangsubanerjee](https://www.github.com/priyangsubanerjee)
 
+## Requirements
 
-## Note
+Developers can upload files (one file at a time) by sending POST request.
 
-- Plase update <username> & <password> vriables in the `url` varialble inside `dbConnect.js` file.
+- Database
+  -
+  - `mongoDb` connection url.
+  - Database `username` & `password` with read & write permission.
 
-## Run app
-
-To run app, first install/updated all the required packages. To install/update packages run 
+- Packages
+  -
+  - `npm i mongoose`
+## Installation
 
 ```bash
-  npm install
+  $ git clone https://https://github.com/priyangsubanerjee/mongodb-nodejs.git
+  $ cd mongodb-nodejs
+  $ npm install
+  $ npm start
 ```
 
-After all the packages are installed correctly its time to run the app. By default the port selected will be `3000`
+Default `port` is `3000`
 
-```bash
-  npm start
-```
+- Visit https://localhost:3000 to view your project in browser.
+- Open up the terminal in your VsCode and check if `Connected` has been logged.
+- Now connection has been established with mongoDb Atlas.
 
-
-
-## Tech Stack
-
-
-**Server:** Node, Express, Nodemon
-
-**Client:** Not yet configured.
-
-
+`Note:` Change `username` and `password` parameters with your own database credentials.
+    
